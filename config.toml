@@ -8,20 +8,6 @@ defaultContentLanguage = "en"
 SectionPagesMenu = "main"
 enableRobotsTXT = true
 
-[languages]
-
-  [languages.en]
-    languageName = 'English'
-    weight = 1
-    [[languages.en.menu.main]]
-      name = "Home"
-      url = "/"
-      weight = 1
-    [[languages.en.menu.main]]
-      name = "About"
-      url = "/about/"
-      weight = 2
-
 [params]
   text_color = ""
   author = ""
