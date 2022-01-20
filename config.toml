@@ -1,0 +1,63 @@
+title = "rollyourown.xyz template"
+baseURL = "<YOUR_DOMAIN>"
+
+theme = "rollyourown-theme"
+contentDir = "ananke"
+defaultContentLanguage = "en"
+
+SectionPagesMenu = "main"
+enableRobotsTXT = true
+
+[languages]
+
+  [languages.en]
+    languageName = 'English'
+    weight = 1
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "About"
+      url = "/about/"
+      weight = 2
+
+  [languages.de]
+    languageName = 'Deutsch'
+    weight = 2
+    [[languages.de.menu.main]]
+      name = "Start"
+      url = "/de/"
+      weight = 1
+    [[languages.de.menu.main]]
+      name = "Über"
+      url = "/de/about/"
+      weight = 2
+
+[params]
+  text_color = ""
+  author = ""
+  favicon = ""
+  site_logo = ""
+  description = "rollyourown.xyz template"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 2
+
+##########################
+# Privacy-related features
+##########################
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.instagram]
+    disable = true
+  [privacy.twitter]
+    disable = true
+  [privacy.vimeo]
+    disable = true
+  [privacy.youtube]
+    disable = true
