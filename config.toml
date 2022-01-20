@@ -1,4 +1,6 @@
 title = "rollyourown.xyz template"
+
+#Replace this URL with the URL for your domain
 baseURL = "https://ryo-test.de"
 
 theme = "ananke"
