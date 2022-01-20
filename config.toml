@@ -1,8 +1,8 @@
 title = "rollyourown.xyz template"
 baseURL = "<YOUR_DOMAIN>"
 
-theme = "rollyourown-theme"
-contentDir = "ananke"
+theme = "ananke"
+contentDir = "content"
 defaultContentLanguage = "en"
 
 SectionPagesMenu = "main"
