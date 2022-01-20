@@ -22,18 +22,6 @@ enableRobotsTXT = true
       url = "/about/"
       weight = 2
 
-  [languages.de]
-    languageName = 'Deutsch'
-    weight = 2
-    [[languages.de.menu.main]]
-      name = "Start"
-      url = "/de/"
-      weight = 1
-    [[languages.de.menu.main]]
-      name = "Über"
-      url = "/de/about/"
-      weight = 2
-
 [params]
   text_color = ""
   author = ""
