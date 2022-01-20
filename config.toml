@@ -1,5 +1,5 @@
 title = "rollyourown.xyz template"
-baseURL = "ryo-test.de"
+baseURL = "https://ryo-test.de"
 
 theme = "ananke"
 contentDir = "content"
