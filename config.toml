@@ -1,7 +1,7 @@
 title = "rollyourown.xyz template"
 
 #Replace this URL with the URL for your domain
-baseURL = "https://ryo-test.de"
+baseURL = "https://rollyourown.xyz"
 
 theme = "ananke"
 contentDir = "content"
@@ -20,6 +20,7 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number = 2
+  disable_share = true
 
 ##########################
 # Privacy-related features
